@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
  && rm -rf /var/lib/apt/lists/*
 
 # Install Gradle
-ARG GRADLE_VERSION=7.3.3
+ARG GRADLE_VERSION=8.0.2
 ARG GRADLE_HOME=/opt/gradle
 RUN curl -L https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip -o gradle.zip \
     && unzip gradle.zip \

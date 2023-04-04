@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+## [1.0.5]
+### Fixed
+- Document separators being removed when sorting
+
 ## [1.0.4]
 ### Added
 - New Icon for popup action
