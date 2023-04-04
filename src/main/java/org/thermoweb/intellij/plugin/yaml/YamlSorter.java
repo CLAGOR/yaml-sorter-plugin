@@ -69,6 +69,8 @@ public class YamlSorter extends AnAction {
 		for (String line : lines) {
 			if (line.startsWith("#")) {
 				headerComments.add(line);
+			} else if (line.startsWith("---")) {
+				headerComments.add(line);
 			} else {
 				return headerComments;
 			}
